@@ -2,5 +2,25 @@
 /* CSS Document */
 
 p{
+	font:14px sans-serif;
 	color:black;
+}
+
+body{
+	padding: 0 2rem;
+	max-width: 1280px;
+	margin:0 auto;
+}
+
+h3{
+	margin:4rem 0 0 0;
+	font-family:sans-serif;
+}
+
+ul{
+	padding-left: 1.1rem;
+	margin-left: 0;
+}
+li{
+	display: list-item;
 }
