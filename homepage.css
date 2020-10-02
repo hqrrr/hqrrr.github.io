@@ -78,7 +78,39 @@ div.box:hover::after{
 div.header{
 	text-align: right;
 }
-
+div.footer{
+	text-align: right;
+	position: fixed;
+	bottom: 0;
+	right: 1rem;
+	width:10px;
+	height: auto;
+	cursor: help;
+}
+#footer_name{
+	position: fixed;
+	bottom: 0;
+	right: 1rem;
+	background: #111111;
+	color: white;
+	border: 0.2rem solid #111111;
+}
+#footer_date{
+	position: fixed;
+	bottom: 0;
+	right: 1rem;
+	visibility: hidden;
+	background: white;
+	color:#111111;
+	border: 0.2rem solid #111111;
+}
+.footer:hover > #footer_name{
+	visibility: hidden;
+}
+.footer:hover > #footer_date{
+	visibility: visible;
+}
+	
 
 @-webkit-keyframes stripe-slide {
   0% {
