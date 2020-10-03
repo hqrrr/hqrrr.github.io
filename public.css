@@ -2,7 +2,8 @@
 /* CSS Document */
 
 p{
-	font:14px sans-serif;
+	font-size:14px ;
+	font-family: "Helvetica Neue", Helvetica, "Microsoft Yahei", Arial, sans-serif;
 	color:black;
 }
 
@@ -14,17 +15,19 @@ body{
 
 h3{
 	margin:4rem 0 0 0;
-	font-family:sans-serif;
+	font-family: "Helvetica Neue", Helvetica, "Microsoft Yahei", Arial, sans-serif;
 }
 
 ul{
 	padding-left: 1.1rem;
 	margin-left: 0;
-	font:14px sans-serif;
+	font-family: "Helvetica Neue", Helvetica, "Microsoft Yahei", Arial, sans-serif;
+	font-size: 14px;
 	color:black;
 }
 li{
 	display: list-item;
-	font:14px sans-serif;
+	font-family: "Helvetica Neue", Helvetica, "Microsoft Yahei", Arial, sans-serif;
+	font-size: 14px;
 	color:black;
 }
