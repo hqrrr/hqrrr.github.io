@@ -21,18 +21,13 @@ div.box:active{
 	cursor: grabbing;
 }
 
-div.box:hover{
+div.box:hover,div.box:active{
 	border-color: dimgrey;
 	max-height:200px;
 	overflow:hidden;
 	overflow-y:auto;
 }
-div.box:active{
-	border-color: dimgrey;
-	max-height:200px;
-	overflow:hidden;
-	overflow-y:auto;
-}
+
 div.clear{
 	clear: both;
 }
@@ -75,12 +70,10 @@ p.box_time{
 	width:auto;
 	height:auto;
 }
-div.box:hover::after{
+div.box:hover::after,div.box:active::after{
 	animation: stripe-slide 12s infinite linear forwards;
 }
-div.box:active::after{
-	animation: stripe-slide 12s infinite linear forwards;
-}
+
 div.header{
 	text-align: right;
 }
