@@ -1,5 +1,9 @@
 @charset "utf-8";
 /* CSS Document */
+body, html {
+	-webkit-touch-callout: none;
+	-webkit-text-size-adjust: 100%;
+}
 
 body,p,h3,div,a,ul,li,span{
 	font-family: "Helvetica Neue", Helvetica, "Microsoft Yahei", Arial, sans-serif;

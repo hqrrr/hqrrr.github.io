@@ -27,6 +27,12 @@ div.box:hover{
 	overflow:hidden;
 	overflow-y:auto;
 }
+div.box:active{
+	border-color: dimgrey;
+	max-height:200px;
+	overflow:hidden;
+	overflow-y:auto;
+}
 div.clear{
 	clear: both;
 }
@@ -72,6 +78,9 @@ p.box_time{
 div.box:hover::after{
 	animation: stripe-slide 12s infinite linear forwards;
 }
+div.box:active::after{
+	animation: stripe-slide 12s infinite linear forwards;
+}
 div.header{
 	text-align: right;
 }
@@ -104,7 +113,13 @@ div.footer{
 .footer:hover > #footer_name{
 	visibility: hidden;
 }
+.footer:active > #footer_name{
+	visibility: hidden;
+}
 .footer:hover > #footer_date{
+	visibility: visible;
+}
+.footer:active > #footer_date{
 	visibility: visible;
 }
 	
