@@ -31,7 +31,7 @@ div.clear{
 	clear: both;
 }
 p.box_time{
-	font:10px sans-serif;
+	font-size:10px;
 	color:gray;
 	text-decoration: underline;
 	height:0.3rem;
@@ -52,7 +52,7 @@ p.box_time{
 	background-size: 5.5px 7px;
 }
 .box > p:not(.box_time){
-	font:14px sans-serif;
+	font-size:14px;
 	color:black;
 	width:auto;
 	height:auto;
