@@ -39,7 +39,6 @@ p.box_time{
 }
 .box::after{
 	border-style:solid none none none;
-	border-color:transparent;
 	border-image: linear-gradient(90deg,dimgray 60%,black);
 	border-image-slice: 10;
 	content: '';
