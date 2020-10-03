@@ -24,7 +24,8 @@ div.box:active{
 div.box:hover{
 	border-color: dimgrey;
 	max-height:20rem;
-	overflow: hidden;
+	overflow:hidden;
+	overflow-y:auto;
 }
 div.clear{
 	clear: both;
