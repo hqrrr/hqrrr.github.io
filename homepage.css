@@ -9,7 +9,23 @@
 	margin:0 auto;
 }
 
-
+div.box{
+  	border: 3px outset #6A6A6A;
+	border-radius: 10px;
+  	margin: 10px 14px;
+  	padding:8px;
+	width:200px;
+	max-height: 70px;
+	min-height: 70px;
+	transition: max-height 0.7s;
+	-moz-transition: max-height 0.7s; /* Firefox 4 */
+	-webkit-transition: max-height 0.7s; /* Safari 和 Chrome */
+	-o-transition: max-height 0.7s; /* Opera */
+	position: relative;
+	float:left;
+	overflow: hidden;
+	cursor : grab;
+}
 div.box:active{
 	cursor: grabbing;
 }
