@@ -1,13 +1,20 @@
 @charset "utf-8";
 /* CSS Document */
-
+.frame{
+	border: 2px solid gray;
+	box-shadow: 1px 1px 10px 2px gray;
+	padding: 5rem;
+	min-height: 1000px;
+	max-width: 1280px;
+	margin:0 auto;
+}
 div.box{
   	border: 3px outset #6A6A6A;
 	border-radius: 10px;
   	margin: 10px 14px;
   	padding:8px;
 	width:170px;
-	max-height:53px;
+	max-height: 53px;
 	transition: max-height 0.7s;
 	-moz-transition: max-height 0.7s; /* Firefox 4 */
 	-webkit-transition: max-height 0.7s; /* Safari 和 Chrome */
