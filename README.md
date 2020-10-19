@@ -26,6 +26,15 @@ use code below to create new section
 <h3>Section XXX</h3>
 <hr />
 ```
+
+replace favicon.ico and favicon.jpeg with your favicon and change the content of the meta data in html:
+
+```
+<meta itemprop="name" content="hqrrr"/> <!-- replace the content with your name -->
+...
+<meta name="description" itemprop="description" content="hqrrr.github.io"/> <!-- replace the content with the URL of your website -->
+```
+
 **简中**
 使用以下简单的html代码即可创建个人简历每一个板块中的方块
 ```
@@ -49,4 +58,11 @@ use code below to create new section
 <div class="clear"></div> <!-- 清除上下格式 -->
 <h3>Section XXX</h3> <!-- 板块名字 -->
 <hr /> <!-- 分割线 -->
+```
+
+将favicon.ico和favicon.jpeg替换为您的favicon，并更改html中meta数据的内容：
+```
+<meta itemprop="name" content="hqrrr"/> <!-- replace the content with your name -->
+...
+<meta name="description" itemprop="description" content="hqrrr.github.io"/> <!-- replace the content with the URL of your website -->
 ```
