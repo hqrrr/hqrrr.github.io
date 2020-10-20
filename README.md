@@ -5,8 +5,8 @@
 **EN**
 use simple html code below to create the box under section of your curriculum vitae
 ```
-<div class="box">
-	<p class="box_time">xx/20xx - xx/20xx</p>
+<div class="box box_print">
+	<p class="box_time box_time_print">xx/20xx - xx/20xx</p>
 	<p><strong>Title</strong><br/>
 	Text abc 123</p>
 	<ul>
@@ -27,7 +27,7 @@ use code below to create new section
 <hr />
 ```
 
-replace favicon.ico and favicon.jpeg with your favicon and change the content of the meta data in html:
+replace favicon.ico and favicon.jpeg under folder "favicon" with your favicon and change the content of the meta data in html:
 
 ```
 <meta itemprop="name" content="hqrrr"/> <!-- replace the content with your name -->
@@ -38,8 +38,8 @@ replace favicon.ico and favicon.jpeg with your favicon and change the content of
 **简中**
 使用以下简单的html代码即可创建个人简历每一个板块中的方块
 ```
-<div class="box">
-	<p class="box_time">xx/20xx - xx/20xx</p>	<!-- 时间 -->
+<div class="box box_print">
+	<p class="box_time box_time_print">xx/20xx - xx/20xx</p>	<!-- 时间 -->
 	<p><strong>Title</strong><br/>	<!-- 标题, <br/>回车 -->
 	Text abc 123</p>	<!-- 文本内容 -->
 	<ul>
@@ -60,7 +60,7 @@ replace favicon.ico and favicon.jpeg with your favicon and change the content of
 <hr /> <!-- 分割线 -->
 ```
 
-将favicon.ico和favicon.jpeg替换为您的favicon，并更改html中meta数据的内容：
+将favicon文件夹下的favicon.ico和favicon.jpeg替换为您的favicon，并更改html中meta数据的内容：
 ```
 <meta itemprop="name" content="hqrrr"/> <!-- replace the content with your name -->
 ...
