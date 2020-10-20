@@ -95,7 +95,7 @@ div.footer{
 	height: auto;
 	cursor: help;
 }
-#footer_name{
+.footer_name{
 	position: fixed;
 	bottom: 0;
 	right: 16px;
@@ -103,7 +103,7 @@ div.footer{
 	color: white;
 	border: 2px solid #111111;
 }
-#footer_date{
+.footer_date{
 	position: fixed;
 	bottom: 0;
 	right: 16px;
@@ -112,16 +112,16 @@ div.footer{
 	color:#111111;
 	border: 2px solid #111111;
 }
-.footer:hover > #footer_name{
+.footer:hover > .footer_name{
 	visibility: hidden;
 }
-.footer:active > #footer_name{
+.footer:active > .footer_name{
 	visibility: hidden;
 }
-.footer:hover > #footer_date{
+.footer:hover > .footer_date{
 	visibility: visible;
 }
-.footer:active > #footer_date{
+.footer:active > .footer_date{
 	visibility: visible;
 }
 	
