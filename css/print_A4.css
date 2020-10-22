@@ -1,6 +1,6 @@
 @charset "utf-8";
 /* CSS Document */
-@media print{
+
 @page{
 		size: A4 portrait;
 	}
@@ -23,7 +23,9 @@ div.box_print{
 	background-color: rgb(245,245,245) !important;
 	border-radius: 3px !important;
 }
-
+div.box_print ul{
+		max-width:400px !important;
+	}
 
 div.clear{
 	clear: both;
@@ -74,5 +76,3 @@ div.footer_print{
 	color:white !important;
 }
 
-
-}
