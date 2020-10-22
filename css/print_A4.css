@@ -6,7 +6,9 @@
 	}
 	
 	
-	
+a{
+	text-decoration: none;
+}
 .frame_print{
 	margin:0 auto !important;
 }
