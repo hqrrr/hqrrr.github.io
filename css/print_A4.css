@@ -9,6 +9,18 @@
 a{
 	text-decoration: none;
 }
+
+div.header_print p{
+	display: none;
+}
+
+div p.header_title{
+	text-align: left;
+	font-size: 30px;
+	font-weight: bold;
+	display: block;
+}
+
 .frame_print{
 	margin:0 auto !important;
 }
