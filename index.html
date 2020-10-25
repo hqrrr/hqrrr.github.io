@@ -14,7 +14,8 @@
 <link href="css/print_A4.css" rel="stylesheet" media="print" type="text/css">
 <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.5.1.min.js"></script>
 <script type="text/javascript" src="javascript/print.js"></script>
-<title>Curriculum Vitae hqrrr</title> <!-- title of your website -->
+<script type="text/javascript" src="javascript/language.js"></script>
+<title>CV hqrrr</title> <!-- title of your website -->
 
 <style type="text/css">
 	
@@ -28,45 +29,90 @@
     <img src="https://hqrrr.github.io/favicon.jpeg" style="height:0;width:0;overflow:hidden;display:block;" />
 </div>
 
+<div id="langBox" style="text-align: right">  <!-- language switcher -->
+	<select id="lang">
+	<!-- <option value="browser">Indicated by the browser</option> -->
+	<option value="en">English</option>
+	<option value="de">Deutsch</option>
+	<option value="chn">简体中文</option>
+	</select>
+</div> 
+
 <div class="header header_print">
-	<p class="header_title">Curriculum Vitae</p>
+	<p class="header_title">
+		<span lang="en">Curriculum Vitae</span>
+		<span lang="de">Lebenslauf</span>
+		<span lang="chn">个人简历</span>
+	</p>
 	<p>
 	<span><a href="#" id="PagePrint" style="text-decoration: none">Print</a></span>
 	<span><a target="_blank" href="https://github.com/hqrrr/" style="text-decoration: none">Github</a></span> <!-- link to your github homepage -->
-	<span style="text-decoration: underline">EN</span> <!-- language switcher -->
-	<span><a href="CV_DE.html" style="text-decoration: none">DE</a></span> <!-- German -->
 	</p>
 </div>
 
 <!-- Educational background -->
-<h3>Educational background</h3>
+<h3>
+	<span lang="en">Educational background</span>
+	<span lang="de">Hochschulbildung</span>
+	<span lang="chn">教育背景</span>
+</h3>
 <hr />
 
 <div class="box box_print">
-	<p class="box_time box_time_print">04/2019 until now</p>
-	<p><strong>Environmental Engineering (M.Sc.)</strong><br/>
-	Energy and environmental in building and construction<br/>
-	RWTH Aachen, Germany</p>
+	<p class="box_time box_time_print">
+		<span lang="en">04/2019 until now</span>
+		<span lang="de">04/2019 bis jetzt</span>
+		<span lang="chn">04/2019 至今</span>
+	</p>
+	<p><strong>
+		<span lang="en">Environmental Engineering (M.Sc.)</span>
+		<span lang="de">Umweltingenieurwissenschaften (M.Sc.)</span>
+		<span lang="chn">环境工程 (M.Sc.)</span>
+	</strong><br/>
+		<span lang="en">Energy and environmental in building and construction<br/>
+			RWTH Aachen, Germany</span>
+		<span lang="de">Energie und Umwelt im Bauwesen<br/>
+			RWTH Aachen, Deutschland</span>
+		<span lang="chn">建筑能源与环境<br/>
+			亚琛工业大学, 德国</span>
+	</p>
 	<ul>
-	<li>Project thesis
+	<li>
+		<span lang="en">Project thesis</span>
+		<span lang="de">Projektarbeit</span>
+		<span lang="chn">项目</span>
 		<ul>
-			<li>Digital planning methods in building technology
+			<li>
+				<span lang="en">Digital planning methods in building technology</span>
+				<span lang="de">Digitale Planungsmethoden in der Gebäudetechnik</span>
+				<span lang="chn">建筑技术中的数字规划方法</span>
 				<ul>
 					<li>
-						Specialist planning of fastening technology
+						<span lang="en">Specialist planning of fastening technology</span>
+						<span lang="de">Fachplanung Befestigungstechnik</span>
+						<span lang="chn">紧固技术专业设计</span>
 					</li>
 					<li>
-						Score: 1.3
+						<span lang="en">Score: 1.3</span>
+						<span lang="de">Note: 1.3</span>
+						<span lang="chn">分数: 1.3</span>
 					</li>
 				</ul>
 			</li>
-			<li>building construction design
+			<li>
+				<span lang="en">building construction design</span>
+				<span lang="de">Hochbau-Entwurf</span>
+				<span lang="chn">建筑结构设计</span>
 				<ul>
 					<li>
-						Specialist planning of TGA
+						<span lang="en">Specialist planning of TGA</span>
+						<span lang="de">Fachplanung TGA</span>
+						<span lang="chn">建筑技术设备的专业设计</span>
 					</li>
 					<li>
-						Score: 2.0
+						<span lang="en">Score: 2.0</span>
+						<span lang="de">Note: 2.0</span>
+						<span lang="chn">分数: 2.0</span>
 					</li>
 				</ul>
 			</li>
@@ -77,14 +123,30 @@
 
 <div class="box box_print">
 	<p class="box_time box_time_print">10/2014 - 03/2019</p>
-	<p><strong>Environmental Engineering (B.Sc.)</strong><br/>
-	RWTH Aachen, Germany</p>
+	<p><strong>
+		<span lang="en">Environmental Engineering (B.Sc.)</span>
+		<span lang="de">Umweltingenieurwissenschaften (B.Sc.)</span>
+		<span lang="chn">环境工程 (B.Sc.)</span>
+	</strong>
+	</p>
 	<ul>
-	<li>Bachelor thesis
+	<li>
+		<span lang="en">Bachelor thesis</span>
+		<span lang="de">Bachelorarbeit</span>
+		<span lang="chn">学士论文</span>
 		<ul>
-			<li>Influence of Electrolyte on Electroreduction of N<sub>2</sub> to NH<sub>3</sub> in Electrochemical
-				Membrane Reactor</li>
-			<li>Score: 1.3</li>
+			<li>
+				<span lang="en">Influence of Electrolyte on Electroreduction of N<sub>2</sub> to NH<sub>3</sub> in Electrochemical
+				Membrane Reactor</span>
+				<span lang="de">Einfluss von Elektrolyt auf die Elektroreduktion von N<sub>2</sub> zu NH<sub>3</sub> im elektrochemischen
+				Membranreaktor</span>
+				<span lang="chn">电解质对电化学膜反应器中N<sub>2</sub>还原为NH<sub>3</sub>的影响</span>
+			</li>
+			<li>
+				<span lang="en">Score: 1.3</span>
+				<span lang="de">Note: 1.3</span>
+				<span lang="chn">分数: 1.3</span>
+			</li>
 		</ul>
 	</li>
 	</ul>
@@ -92,23 +154,52 @@
 
 <!-- Study-related work experience / Internships -->
 <div class="clear"></div>
-<h3>Study-related work experience / Internships</h3>
+<h3>
+<span lang="en">Study-related work experience / Internships</span>
+<span lang="de">Studienbegleitende Berufspraxis/ Praktika</span>
+<span lang="chn">工作经验/ 实习经历</span>
+</h3>
 <hr />
 
 <div class="box box_print">
 	<p class="box_time box_time_print">05/2019 - 08/2019</p>
-	<p><b>Intern Student</b><br/>
-	Country Garden Group<br/>
-	Foshan, Guangdong, China</p>
+	<p><b>
+		<span lang="en">Intern Student</span>
+		<span lang="de">Praktikum</span>
+		<span lang="chn">实习</span>
+	</b><br/>
+		<span lang="en">Country Garden Group<br/>
+		Foshan, Guangdong, China</span>
+		<span lang="de">Country Garden Gruppe<br/>
+		Foshan, Guangdong, China</span>
+		<span lang="chn">碧桂园集团<br/>
+		佛山, 广东, 中国</span>
+	</p>
 <ul>
-	<li>Green building consulting</li>
-	<li><a target="_blank" href="https://github.com/hqrrr/grasshopper-sponge-city">Sponge city programm on Grasshopper (Rhino) plattform</a></li>
+	<li>
+		<span lang="en">Green building consulting</span>
+		<span lang="de">Green Building Beratung</span>
+		<span lang="chn">绿色建筑咨询</span>
+	</li>
+	<li>
+		<span lang="en"><a target="_blank" href="https://github.com/hqrrr/grasshopper-sponge-city">Sponge city programm on Grasshopper (Rhino) plattform</a></span>
+		<span lang="de"><a target="_blank" href="https://github.com/hqrrr/grasshopper-sponge-city">Schwammstadt-Programm auf Grasshopper (Rhino) Plattform</a></span>
+		<span lang="chn"><a target="_blank" href="https://github.com/hqrrr/grasshopper-sponge-city">基于Grasshopper(Rhino)的海绵城市计算小程序</a></span>
+	</li>
 </ul>
 </div>
 
 <div class="box box_print">
-	<p class="box_time box_time_print">08/2017 until now</p>
-	<p><b>Web Front-End Engineer</b></p>
+	<p class="box_time box_time_print">
+		<span lang="en">08/2017 until now</span>
+		<span lang="de">08/2017 bis jetzt</span>
+		<span lang="chn">08/2017 至今</span>
+	</p>
+	<p><b>
+		<span lang="en">Web Front-End Engineer</span>
+		<span lang="de">Web Front-End Ingenieur</span>
+		<span lang="chn">网页前端工程师</span>
+	</b></p>
 <ul>
 	<li><a target="_blank" href="http://eec-media.de/">eec-media.de</a></li>
 	<li><a target="_blank" href="http://kleinsmarketing.de/">kleinsmarketing.de</a></li>
@@ -120,66 +211,153 @@
 </div>
 
 <div class="box box_print">
-	<p class="box_time box_time_print">07/2017 until now</p>
-	<p><b>Project Engineer</b><br/>
-	Geniatech Europe GmbH<br/>
-	Kohlscheid, NRW, Deutschland</p>
+	<p class="box_time box_time_print">
+		<span lang="en">07/2017 until now</span>
+		<span lang="de">07/2017 bis jetzt</span>
+		<span lang="chn">07/2017 至今</span>
+	</p>
+	<p><b>
+		<span lang="en">Project Engineer</span>
+		<span lang="de">Projekt Ingenieur</span>
+		<span lang="chn">项目工程师</span>
+	</b><br/>
+		<span lang="en">Geniatech Europe GmbH<br/>
+		Kohlscheid, NRW, Germany</span>
+		<span lang="de">Geniatech Europe GmbH<br/>
+		Kohlscheid, NRW, Deutschland</span>
+		<span lang="chn">Geniatech Europe GmbH<br/>
+		Kohlscheid, NRW, 德国</span>
+	</p>
 <ul>
-	<li>Webshop Manager</li>
-	<li>Technical Support</li>
+	<li>
+		<span lang="en">Webshop Manager</span>
+		<span lang="de">Webshop Manager</span>
+		<span lang="chn">网络商城管理</span>
+	</li>
+	<li>
+		<span lang="en">Technical Support</span>
+		<span lang="de">Technical Support</span>
+		<span lang="chn">技术支持</span>
+	</li>
 </ul>
 </div>
 
 <div class="box box_print">
 	<p class="box_time box_time_print">09/2017 - 12/2017</p>
-	<p><b>Intern Student</b><br/>
-	Sichuan Changcheng Environmental Science Research
-	Institute<br/>
-	Sichuan, China</p>
+	<p><b>
+		<span lang="en">Intern Student</span>
+		<span lang="de">Praktikum</span>
+		<span lang="chn">实习</span>
+	</b><br/>
+		<span lang="en">Sichuan Changcheng Environmental Science Research
+		Institute<br/>
+		Sichuan, China</span>
+		<span lang="de">Sichuan Changcheng Environmental Science Research
+		Institute<br/>
+		Sichuan, China</span>
+		<span lang="chn">四川长城环境科学研究院<br/>
+		四川, 中国</span>
+	</p>
 <ul>
-	<li>Webadmin</li>
+	<li>
+		<span lang="en">Webadmin</span>
+		<span lang="de">Webadmin</span>
+		<span lang="chn">网站管理</span>
+	</li>
 </ul>
 </div>
 
 <div class="box box_print">
 	<p class="box_time box_time_print">03/2016 - 07/2017</p>
-	<p><b>Technical Support</b><br/>
-	Geniatech Europe GmbH<br/>
-	Kohlscheid, NRW, Deutschland</p>
+	<p><b>
+		<span lang="en">Technical Support</span>
+		<span lang="de">Technical Support</span>
+		<span lang="chn">技术支持</span>
+	</b><br/>
+		<span lang="en">Geniatech Europe GmbH<br/>
+		Kohlscheid, NRW, Germany</span>
+		<span lang="de">Geniatech Europe GmbH<br/>
+		Kohlscheid, NRW, Deutschland</span>
+		<span lang="chn">Geniatech Europe GmbH<br/>
+		Kohlscheid, NRW, 德国</span>
+	</p>
 </div>
 
 <div class="box box_print">
 	<p class="box_time box_time_print">07/2014 - 08/2014</p>
-	<p><b>Intern Student</b><br/>
-	Sichuan Changcheng Environmental Science Research
-	Institute<br/>
-	Sichuan, China</p>
+	<p><b>
+		<span lang="en">Intern Student</span>
+		<span lang="de">Praktikum</span>
+		<span lang="chn">实习</span>
+	</b><br/>
+		<span lang="en">Sichuan Changcheng Environmental Science Research
+		Institute<br/>
+		Sichuan, China</span>
+		<span lang="de">Sichuan Changcheng Environmental Science Research
+		Institute<br/>
+		Sichuan, China</span>
+		<span lang="chn">四川长城环境科学研究院<br/>
+		四川, 中国</span>
+	</p>
 <ul>
-	<li>Waste management of the district Dechang</li>
-	<li>Treatment amount: 1 t/d</li>
+	<li>
+		<span lang="en">Waste management of the district Dechang</span>
+		<span lang="de">Abfallwirtschaft des Kreises Dechang</span>
+		<span lang="chn">德昌县废物处理项目</span>
+	</li>
 </ul>
 </div>
 
 <!-- Extra-curricular activities -->
 <div class="clear"></div>
-<h3>Extra-curricular activities</h3>
+<h3>
+	<span lang="en">Extra-curricular activities</span>
+	<span lang="de">Außeruniversitäres Engagement</span>
+	<span lang="chn">课外活动</span>
+</h3>
 <hr />
 
 <div class="box box_print">
-	<p class="box_time box_time_print">05/2019 until now</p>
-	<p><b>Board member</b><br/>
-	C2 Snow Sport e.V.</p>
+	<p class="box_time box_time_print">
+		<span lang="en">05/2019 until now</span>
+		<span lang="de">05/2019 bis jetzt</span>
+		<span lang="chn">05/2019 至今</span>
+	</p>
+	<p><b>
+		<span lang="en">Board member</span>
+		<span lang="de">Vorstandsmitglieder</span>
+		<span lang="chn">理事会成员</span>
+	</b><br/>
+		<span lang="en">C2 Snow Sport e.V.</span>
+		<span lang="de">C2 Snow Sport e.V.</span>
+		<span lang="chn">C2 Snow Sport e.V.</span>
+	</p>
 <ul>
-	<li>Snowboard instructor</li>
+	<li>
+		<span lang="en">Snowboard instructor</span>
+		<span lang="de">Snowboardlehrer</span>
+		<span lang="chn">单板滑雪教练</span>
+	</li>
 </ul>
 </div>
 
 <div class="box box_print">
 	<p class="box_time box_time_print">07/2010 - 07/2010</p>
-	<p><b>Volunteer</b><br/>
-	China-Europe-Forum</p>
+	<p><b>
+		<span lang="en">Volunteer</span>
+		<span lang="de">Freiwillige</span>
+		<span lang="chn">志愿者</span>
+	</b><br/>
+		<span lang="en">China-Europe-Forum</span>
+		<span lang="de">China-Europa-Forum</span>
+		<span lang="chn">中欧论坛</span>
+	</p>
 <ul>
-	<li>Project: Earthquake Reconstruction and Sustainable Development (T43i)</li>
+	<li>
+		<span lang="en">Project: Earthquake Reconstruction and Sustainable Development (T43i)</span>
+		<span lang="de">Projekt: Erdbeben-Wiederaufbau und nachhaltige Entwicklung (T43i)</span>
+		<span lang="chn">项目组：地震灾后重建与可持续发展（T43i）</span>
+	</li>
 </ul>
 </div>
 
@@ -187,22 +365,54 @@
 
 <!-- Skills -->
 <div class="clear"></div>
-<h3>Skills</h3>
+<h3>
+	<span lang="en">Skills</span>
+	<span lang="de">Kenntnisse</span>
+	<span lang="chn">能力</span>
+</h3>
 <hr />
 
 <div class="box box_print">
-	<p class="box_time box_time_print">Personal skills</p>
-	<p><b>Linguistic proficiency</b></p>
+	<p class="box_time box_time_print">
+		<span lang="en">Personal skills</span>
+		<span lang="de">Persönliche Kenntnisse</span>
+		<span lang="chn">个人能力</span>
+	</p>
+	<p><b>
+		<span lang="en">Linguistic proficiency</span>
+		<span lang="de">Sprachkenntnisse</span>
+		<span lang="chn">语言能力</span>
+	</b></p>
 <ul>
-	<li>Chinese: native</li>
-	<li>English: good</li>
-	<li>German: very good (C1)</li>
+	<li>
+		<span lang="en">Chinese: native</span>
+		<span lang="de">Chinesisch: Muttersprache</span>
+		<span lang="chn">中文：母语</span>
+	</li>
+	<li>
+		<span lang="en">English: good</span>
+		<span lang="de">Englisch: gut</span>
+		<span lang="chn">英语：好</span>
+	</li>
+	<li>
+		<span lang="en">German: very good (C1)</span>
+		<span lang="de">Deutsch: sehr gut (C1)</span>
+		<span lang="chn">德语：非常好 (C1)</span>
+	</li>
 </ul>
 </div>
 
 <div class="box box_print">
-	<p class="box_time box_time_print">EDP</p>
-	<p><b>CAD &amp; Simulation</b></p>
+	<p class="box_time box_time_print">
+		<span lang="en">EDP</span>
+		<span lang="de">EDV</span>
+		<span lang="chn">EDP</span>
+	</p>
+	<p><b>
+		<span lang="en">CAD &amp; Simulation</span>
+		<span lang="de">CAD &amp; Simulation</span>
+		<span lang="chn">CAD &amp; 模拟</span>
+	</b></p>
 <ul>
 	<li>Rhinoceros</li>
 	<ul>
@@ -216,18 +426,35 @@
 </div>
 
 <div class="box box_print">
-	<p class="box_time box_time_print">EDP</p>
-	<p><b>Programing</b></p>
+	<p class="box_time box_time_print">
+		<span lang="en">EDP</span>
+		<span lang="de">EDV</span>
+		<span lang="chn">EDP</span>
+	</p>
+	<p><b>
+		<span lang="en">Programing</span>
+		<span lang="de">Programmierung</span>
+		<span lang="chn">编程</span>
+	</b></p>
 <ul>
+	<li>Python</li>
 	<li>HTML</li>
 	<li>CSS</li>
-	<li>Python</li>
+	<li>JavaScript</li>
 </ul>
 </div>
 
 <div class="box box_print">
-	<p class="box_time box_time_print">EDP</p>
-	<p><b>Adobe software</b></p>
+	<p class="box_time box_time_print">
+		<span lang="en">EDP</span>
+		<span lang="de">EDV</span>
+		<span lang="chn">EDP</span>
+	</p>
+	<p><b>
+		<span lang="en">Adobe software</span>
+		<span lang="de">Adobe Software</span>
+		<span lang="chn">Adobe 软件</span>
+	</b></p>
 <ul>
 	<li>Photoshop</li>
 	<li>Premiere</li>
@@ -236,7 +463,11 @@
 </div>
 
 <div class="box box_print">
-	<p class="box_time box_time_print">EDP</p>
+	<p class="box_time box_time_print">
+		<span lang="en">EDP</span>
+		<span lang="de">EDV</span>
+		<span lang="chn">EDP</span>
+	</p>
 	<p><b>MS-Office</b></p>
 <ul>
 	<li>Word</li>
@@ -246,19 +477,47 @@
 </div>
 
 <div class="box box_print">
-	<p class="box_time box_time_print">Personal skills</p>
-	<p><b>Driving license</b></p>
+	<p class="box_time box_time_print">
+		<span lang="en">Personal skills</span>
+		<span lang="de">Persönliche Kenntnisse</span>
+		<span lang="chn">个人能力</span>
+	</p>
+	<p><b>
+		<span lang="en">Driving license</span>
+		<span lang="de">Führerschein</span>
+		<span lang="chn">驾照</span>
+	</b></p>
 <ul>
-	<li>Class B (Germany)</li>
-	<li>Class C1 (China)</li>
+	<li>
+		<span lang="en">Class B (Germany)</span>
+		<span lang="de">Klasse B (Deutschland)</span>
+		<span lang="chn">B级 (德国)</span>
+	</li>
+	<li>
+		<span lang="en">Class C1 (China)</span>
+		<span lang="de">Klasse C1 (China)</span>
+		<span lang="chn">C1级 (中国)</span>
+	</li>
 </ul>
 </div>
 
 <div class="box box_print">
-	<p class="box_time box_time_print">Personal skills</p>
-	<p><b>Sport</b></p>
+	<p class="box_time box_time_print">
+		<span lang="en">Personal skills</span>
+		<span lang="de">Persönliche Kenntnisse</span>
+		<span lang="chn">个人能力</span>
+	</p>
+	<p><b>
+		<span lang="en">Sport</span>
+		<span lang="de">Sport</span>
+		<span lang="chn">运动</span>
+	</b></p>
 <ul>
-	<li>Snowboard instructor DSLV Level 1</li>
+	<li>
+		<span lang="en">Snowboard instructor DSLV Level 1</span>
+		<span lang="de">Snowboardlehrer DSLV Level 1</span>
+		<span lang="chn">DSLV德国滑雪教练协会一级单板教练</span>
+	</li>
 </ul>
 </div>
 
