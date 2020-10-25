@@ -14,6 +14,10 @@ div.header_print p{
 	display: none;
 }
 
+#langBox{
+	display: none;
+}
+
 div p.header_title{
 	text-align: left;
 	font-size: 30px;

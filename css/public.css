@@ -7,6 +7,9 @@ body, html {
 
 body,p,h3,div,a,ul,li,span{
 	font-family: "Helvetica Neue", Helvetica, "Microsoft Yahei", Arial, sans-serif;
+}
+
+a{
 	color:black;
 }
 

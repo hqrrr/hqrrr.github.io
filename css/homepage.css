@@ -42,7 +42,7 @@ div.clear{
 }
 p.box_time{
 	font-size:10px;
-	color:gray;
+	color:gray !important;
 	text-decoration: underline;
 	height:3px;
 	margin:0;
