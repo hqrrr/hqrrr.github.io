@@ -1,0 +1,100 @@
+@charset "utf-8";
+/* CSS Document */
+html {
+  scroll-behavior: smooth;
+}
+
+body{
+	max-width: 1000px;
+	min-height: 1000px;
+	margin: 0 auto;
+	border: 2px solid lightgray;
+	box-shadow: lightgray 0 0 20px;
+	padding: 60px;
+}
+
+#langBox select{
+	height:30px;
+	width:80px;
+}
+
+#toTop{
+	text-decoration: none;
+	width: 50px;
+	height: 50px;
+	position: fixed;
+	right: 5%;
+	bottom: 5%;
+	background-color: lightgray;
+	border: 2px solid lightgray;
+	border-radius: 10px;
+	text-align: center;
+	transition-duration: 0.3s;
+	box-shadow: rgb(200,200,200) 1px 1px 10px;
+}
+
+#toTop:hover{
+	background-color: gray;
+	border: 2px solid gray;
+	transition-duration: 0.3s;
+	bottom: calc(5% + 5px);
+}
+
+#toTop div{
+	text-align: center;
+	width: 40px;
+	margin: 7px auto 0 auto;
+}
+
+#toTop div p{
+	text-align: center;
+	margin: auto;
+	color: black;
+	font-weight: bold;
+	font-size: 14px;
+}
+
+#toTop:hover div p{
+	color: white;
+}
+
+h1{
+	display: table;
+    padding-right: 300px;
+    border-bottom: 2px solid #888;
+	text-transform: uppercase;
+}
+
+h2{
+	display: table;
+    padding-right: 200px;
+    border-bottom: 2px dotted #888;
+	text-transform: uppercase;
+	margin-top: 80px;
+}
+
+h3{
+	display: table;
+    padding-right: 100px;
+    border-bottom: 1px solid #888;
+	margin-top: 40px;
+}
+
+h4{
+	display: table;
+    padding-right: 100px;
+    border-bottom: 1px dotted lightgray;
+	margin-top: 40px;
+}
+
+a{
+	color: black;
+}
+
+a:hover{
+	cursor: pointer;
+}
+
+li{
+	margin:10px 0 10px 0;
+}

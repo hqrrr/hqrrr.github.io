@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0"/>
+    <meta itemprop="name" content="IEQMessbox"/>
+    <meta itemprop="image" content="./favicon/favicon.jpeg"/>
+    <meta property="og:image" content="./favicon/favicon.jpeg"/>
+    <meta name="description" itemprop="description" content="IEQMessbox manual"/>
+    <link rel="shortcut icon" href="./favicon/favicon.ico">
+    <link rel="icon" href="./favicon/favicon.ico">
+    <link rel="bookmark" href="./favicon/favicon.ico">
+    <link href="css/homepage.css" rel="stylesheet" media="screen" type="text/css">
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.5.1.min.js"></script>
+    <script type="text/javascript" src="./javascript/language.js"></script>
+    <title>IEQMessbox manual</title>
+</head>
+<body>
+<!--
+<span lang="en"></span>
+<span lang="de"></span>
+<span lang="chn"></span>
+-->
+<div id="langBox" style="text-align: right">  <!-- language switcher -->
+	<select title="language" id="lang">
+	<!-- <option value="browser">Indicated by the browser</option> -->
+	<option value="en">English</option>
+	<option value="de">Deutsch</option>
+	<option value="chn">简体中文</option>
+	</select>
+</div>
+
+<a id="toTop" href="#title">
+    <div>
+        <p>
+            <span lang="en">To Top</span>
+            <span lang="de">Nach Oben</span>
+            <span lang="chn">返回顶部</span>
+        </p>
+    </div>
+</a>
+
+<!-- title -->
+<h1 id="title">
+    <span lang="en">Manual</span>
+    <span lang="de">Handbuch</span>
+    <span lang="chn">说明书</span>
+</h1>
+
+<!-- table of contents -->
+<h2>
+    <span lang="en">Contents</span>
+    <span lang="de">Inhalte</span>
+    <span lang="chn">目录</span>
+</h2>
+<ul>
+    <li>
+        <a href="#hardware">
+            <span lang="en">Hardware</span>
+            <span lang="de">Hardware</span>
+            <span lang="chn">硬件设备</span>
+        </a>
+        <ul>
+            <li>
+                <a href="#hardware-getting-started">
+                <span lang="en">Getting Started</span>
+                <span lang="de">Erste Schritte</span>
+                <span lang="chn">入门指南</span>
+                </a>
+            </li>
+            <li>
+                <a href="#hardware-display">
+                <span lang="en">Display</span>
+                <span lang="de">Display</span>
+                <span lang="chn">触控屏</span>
+                </a>
+            </li>
+            <li>
+                <a href="#hardware-sleep-mode">
+                <span lang="en">Sleep Mode</span>
+                <span lang="de">Schlafmodus</span>
+                <span lang="chn">睡眠模式</span>
+                </a>
+            </li>
+            <li>
+                <a href="#hardware-window-sensor">
+                <span lang="en">Window Sensor</span>
+                <span lang="de">Fenster-Sensor</span>
+                <span lang="chn">窗户传感器</span>
+                </a>
+            </li>
+        </ul>
+    </li>
+    <li>
+        <a href="#software">
+            <span lang="en">Software</span>
+            <span lang="de">Software</span>
+            <span lang="chn">软件应用</span>
+        </a>
+        <ul>
+            <li>
+                <a href="#software-getting-started">
+                <span lang="en">Getting Started</span>
+                <span lang="de">Erste Schritte</span>
+                <span lang="chn">入门指南</span>
+                </a>
+            </li>
+            <li>
+                <a href="#software-main-window">
+                <span lang="en">Main Window</span>
+                <span lang="de">Hauptfenster</span>
+                <span lang="chn">主窗口</span>
+                </a>
+                <ul>
+                    <li>
+                        <a href="#software-main-window-status">
+                        <span lang="en">Status</span>
+                        <span lang="de">Status</span>
+                        <span lang="chn">状态栏</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#software-main-window-data-tracker">
+                        <span lang="en">Data Tracker</span>
+                        <span lang="de">Daten-Tracker</span>
+                        <span lang="chn">数据追踪</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#software-main-window-predicted-comfort">
+                        <span lang="en">Predicted Comfort</span>
+                        <span lang="de">Prognostizierter Komfort</span>
+                        <span lang="chn">舒适度预测</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#software-main-window-window-sensor">
+                        <span lang="en">Window Sensor</span>
+                        <span lang="de">Fenster-Sensor</span>
+                        <span lang="chn">窗户传感器</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#software-main-window-log">
+                        <span lang="en">Log</span>
+                        <span lang="de">Log</span>
+                        <span lang="chn">日志</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#software-main-window-animation">
+                        <span lang="en">Animation</span>
+                        <span lang="de">Animation</span>
+                        <span lang="chn">动画窗口</span>
+                        </a>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <a href="#software-setting-window">
+                <span lang="en">Setting Window</span>
+                <span lang="de">Einstellungsfenster</span>
+                <span lang="chn">设置窗口</span>
+                </a>
+                <ul>
+                    <li>
+                        <a href="#software-setting-window-comfort-limit">
+                        <span lang="en">Comfort Limit</span>
+                        <span lang="de">Komfortgrenze</span>
+                        <span lang="chn">舒适度区间</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#software-setting-window-settings">
+                        <span lang="en">Settings</span>
+                        <span lang="de">Einstellungen</span>
+                        <span lang="chn">其他设置</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#software-setting-window-style">
+                        <span lang="en">Style</span>
+                        <span lang="de">Style</span>
+                        <span lang="chn">样式</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#software-setting-window-connection">
+                        <span lang="en">Connection</span>
+                        <span lang="de">Verbindung</span>
+                        <span lang="chn">连接</span>
+                        </a>
+                    </li>
+                </ul>
+            </li>
+
+        </ul>
+    </li>
+</ul>
+<!-- contents -->
+<!-- chapter hardware -->
+<h2 id="hardware">
+    <span lang="en">Hardware</span>
+    <span lang="de">Hardware</span>
+    <span lang="chn">硬件设备</span>
+</h2>
+<!-- getting started -->
+<div>
+    <h3 id="hardware-getting-started">
+        <span lang="en">Getting Started</span>
+        <span lang="de">Erste Schritte</span>
+        <span lang="chn">入门指南</span>
+    </h3>
+    <span lang="en"></span>
+    <span lang="de"></span>
+    <span lang="chn"></span>
+</div>
+<!-- display -->
+<div>
+    <h3 id="hardware-display">
+        <span lang="en">Display</span>
+        <span lang="de">Display</span>
+        <span lang="chn">触控屏</span>
+    </h3>
+    <span lang="en"></span>
+    <span lang="de"></span>
+    <span lang="chn"></span>
+</div>
+<!-- sleep mode -->
+<div>
+    <h3 id="hardware-sleep-mode">
+        <span lang="en">Sleep Mode</span>
+        <span lang="de">Schlafmodus</span>
+        <span lang="chn">睡眠模式</span>
+    </h3>
+    <span lang="en"></span>
+    <span lang="de"></span>
+    <span lang="chn"></span>
+</div>
+<!-- window sensor -->
+<div>
+    <h3 id="hardware-window-sensor">
+        <span lang="en">Window Sensor</span>
+        <span lang="de">Fenster-Sensor</span>
+        <span lang="chn">窗户传感器</span>
+    </h3>
+    <span lang="en"></span>
+    <span lang="de"></span>
+    <span lang="chn"></span>
+</div>
+
+<!-- chapter software -->
+<h2 id="software">
+    <span lang="en">Software</span>
+    <span lang="de">Software</span>
+    <span lang="chn">软件应用</span>
+</h2>
+
+<div>
+    <h3 id="software-getting-started">
+        <span lang="en">Getting Started</span>
+        <span lang="de">Erste Schritte</span>
+        <span lang="chn">入门指南</span>
+    </h3>
+    <span lang="en"></span>
+    <span lang="de"></span>
+    <span lang="chn"></span>
+</div>
+
+<div>
+    <h3 id="software-main-window">
+        <span lang="en">Main Window</span>
+        <span lang="de">Hauptfenster</span>
+        <span lang="chn">主窗口</span>
+    </h3>
+    <span lang="en"></span>
+    <span lang="de"></span>
+    <span lang="chn"></span>
+    <!-- -->
+    <div>
+        <h4 id="software-main-window-status">
+            <span lang="en">Status</span>
+            <span lang="de">Status</span>
+            <span lang="chn">状态栏</span>
+        </h4>
+        <span lang="en"></span>
+        <span lang="de"></span>
+        <span lang="chn"></span>
+    </div>
+    <!-- -->
+    <div>
+        <h4 id="software-main-window-data-tracker">
+            <span lang="en">Data Tracker</span>
+            <span lang="de">Daten-Tracker</span>
+            <span lang="chn">数据追踪</span>
+        </h4>
+        <span lang="en"></span>
+        <span lang="de"></span>
+        <span lang="chn"></span>
+    </div>
+    <!-- -->
+    <div>
+        <h4 id="software-main-window-predicted-comfort">
+            <span lang="en">Predicted Comfort</span>
+            <span lang="de">Prognostizierter Komfort</span>
+            <span lang="chn">舒适度预测</span>
+        </h4>
+        <span lang="en"></span>
+        <span lang="de"></span>
+        <span lang="chn"></span>
+    </div>
+    <!-- -->
+    <div>
+        <h4 id="software-main-window-window-sensor">
+            <span lang="en">Window Sensor</span>
+            <span lang="de">Fenster-Sensor</span>
+            <span lang="chn">窗户传感器</span>
+        </h4>
+        <span lang="en"></span>
+        <span lang="de"></span>
+        <span lang="chn"></span>
+    </div>
+    <!-- -->
+    <div>
+        <h4 id="software-main-window-log">
+            <span lang="en">Log</span>
+            <span lang="de">Log</span>
+            <span lang="chn">日志</span>
+        </h4>
+        <span lang="en"></span>
+        <span lang="de"></span>
+        <span lang="chn"></span>
+    </div>
+    <!-- -->
+    <div>
+        <h4 id="software-main-window-animation">
+            <span lang="en">Animation</span>
+            <span lang="de">Animation</span>
+            <span lang="chn">动画窗口</span>
+        </h4>
+        <span lang="en"></span>
+        <span lang="de"></span>
+        <span lang="chn"></span>
+    </div>
+</div>
+<!-- -->
+<div>
+    <h3 id="software-setting-window">
+        <span lang="en">Setting Window</span>
+        <span lang="de">Einstellungsfenster</span>
+        <span lang="chn">设置窗口</span>
+    </h3>
+    <span lang="en"></span>
+    <span lang="de"></span>
+    <span lang="chn"></span>
+    <!-- -->
+    <div>
+        <h4 id="software-setting-window-comfort-limit">
+            <span lang="en">Comfort Limit</span>
+            <span lang="de">Komfortgrenze</span>
+            <span lang="chn">舒适度区间</span>
+        </h4>
+        <span lang="en"></span>
+        <span lang="de"></span>
+        <span lang="chn"></span>
+    </div>
+    <!-- -->
+    <div>
+        <h4 id="software-setting-window-settings">
+            <span lang="en">Settings</span>
+            <span lang="de">Einstellungen</span>
+            <span lang="chn">其他设置</span>
+        </h4>
+        <span lang="en"></span>
+        <span lang="de"></span>
+        <span lang="chn"></span>
+    </div>
+    <!-- -->
+    <div>
+        <h4 id="software-setting-window-style">
+            <span lang="en">Style</span>
+            <span lang="de">Style</span>
+            <span lang="chn">样式</span>
+        </h4>
+        <span lang="en"></span>
+        <span lang="de"></span>
+        <span lang="chn"></span>
+    </div>
+    <!-- -->
+    <div>
+        <h4 id="software-setting-window-connection">
+            <span lang="en">Connection</span>
+            <span lang="de">Verbindung</span>
+            <span lang="chn">连接</span>
+        </h4>
+        <span lang="en"></span>
+        <span lang="de"></span>
+        <span lang="chn"></span>
+    </div>
+</div>
+
+</body>
+</html>
+
