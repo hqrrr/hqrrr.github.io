@@ -13,6 +13,14 @@ body{
 	padding: 60px;
 }
 
+img{
+	width:50%;
+	max-width:600px;
+	min-width:300px;
+	height:auto;
+	border: 2px solid lightgray;
+}
+
 #langBox select{
 	height:30px;
 	width:80px;
@@ -97,4 +105,26 @@ a:hover{
 
 li{
 	margin:10px 0 10px 0;
+}
+
+.img{
+	margin-top:20px;
+}
+
+.img-description{
+	position: relative;
+    background-color: white;
+    width: auto;
+    max-width: 160px;
+    min-height: 40px;
+    border-radius: 2px;
+    text-align: center;
+    line-height: 40px;
+	border: 3px solid gray;
+}
+
+@media only screen and (max-width: 980px) {
+	body{
+		padding: 60px 10px;
+	}
 }
