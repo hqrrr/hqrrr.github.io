@@ -34,7 +34,7 @@ div.box:active{
 
 div.box:hover,div.box:active{
 	border-color: dimgrey;
-	max-height:400px;
+	max-height:500px;
 	overflow:hidden;
 	
 }
